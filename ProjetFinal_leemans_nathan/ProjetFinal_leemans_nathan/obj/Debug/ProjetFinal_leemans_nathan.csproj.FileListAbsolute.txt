@@ -1,0 +1,7 @@
+C:\Users\200253\Desktop\ProjetFinal_leemans_nathan\ProjetFinal_leemans_nathan\bin\Debug\ProjetFinal_leemans_nathan.exe.config
+C:\Users\200253\Desktop\ProjetFinal_leemans_nathan\ProjetFinal_leemans_nathan\bin\Debug\ProjetFinal_leemans_nathan.exe
+C:\Users\200253\Desktop\ProjetFinal_leemans_nathan\ProjetFinal_leemans_nathan\bin\Debug\ProjetFinal_leemans_nathan.pdb
+C:\Users\200253\Desktop\ProjetFinal_leemans_nathan\ProjetFinal_leemans_nathan\obj\Debug\ProjetFinal_leemans_nathan.csprojAssemblyReference.cache
+C:\Users\200253\Desktop\ProjetFinal_leemans_nathan\ProjetFinal_leemans_nathan\obj\Debug\ProjetFinal_leemans_nathan.csproj.CoreCompileInputs.cache
+C:\Users\200253\Desktop\ProjetFinal_leemans_nathan\ProjetFinal_leemans_nathan\obj\Debug\ProjetFinal_leemans_nathan.exe
+C:\Users\200253\Desktop\ProjetFinal_leemans_nathan\ProjetFinal_leemans_nathan\obj\Debug\ProjetFinal_leemans_nathan.pdb
