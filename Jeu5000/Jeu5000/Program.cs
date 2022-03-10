@@ -16,6 +16,7 @@ namespace ProjetFinal_leemans_nathan
             string player4 = new string("");
             string player5 = new string("");
             int NbreJoueur;
+            int[,] tablDes = new int[5,5];
 
             Console.WriteLine("-------------");
             Console.Write("|");
@@ -28,15 +29,17 @@ namespace ProjetFinal_leemans_nathan
             Console.WriteLine("Combien de joueurs vont jouer ?");
             NbreJoueur = int.Parse(Console.ReadLine());
 
-            ChoixNbreJoueur(NbreJoueur,ref player1,ref player2,ref player3,ref player4,ref player5);
+            ChoixNbreJoueur(NbreJoueur, ref player1, ref player2, ref player3, ref player4, ref player5);
+
             Console.WriteLine($"1er Joueur: {player1}");
             Console.WriteLine($"2eme joueur:{player2}");
             Console.WriteLine($"3eme joueur: {player3}");
             Console.WriteLine($"4eme joueur: {player4}");
             Console.WriteLine($"5eme joueur: {player5}");
+
             Console.ReadLine();
         }
-        static void ChoixNbreJoueur(int NbreJoueur, ref string player1,ref string player2,ref string player3,ref string player4,ref string player5)
+        static void ChoixNbreJoueur(int NbreJoueur, ref string player1, ref string player2, ref string player3, ref string player4, ref string player5)
         {
             if (NbreJoueur >= 2)
             {
@@ -44,7 +47,6 @@ namespace ProjetFinal_leemans_nathan
                 player1 = Console.ReadLine();
                 Console.WriteLine("Veuillez entrer le prénom du deuxième joueur");
                 player2 = Console.ReadLine();
-                
             }
             if (NbreJoueur >= 3)
             {
@@ -56,14 +58,21 @@ namespace ProjetFinal_leemans_nathan
                 Console.WriteLine("Veuillez entrer le prénom du quatrième joueur");
                 player4 = Console.ReadLine();
             }
-            if( NbreJoueur >= 5)
+            if (NbreJoueur >= 5)
             {
-
                 Console.WriteLine("Veuillez entrer le prénom du cinquième joueur");
                 player5 = Console.ReadLine();
             }
 
             Console.ReadLine();
+        }
+        static void lancerDes(int[,] tablDes,int NbreJoueur)
+        {
+            NbreJoueur = 
+        }
+        static void AfficheTableau()
+        {
+
         }
     }
 }
